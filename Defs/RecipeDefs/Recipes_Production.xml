@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+	<RecipeDef>
+		<defName>SoED_GoldWaste</defName>
+		<label>Smelt the gold into pieces.</label>
+		<description>Divide the golden unit of measure into pieces for the craft.</description>
+		<jobString>Smelting gold to pieces.</jobString>
+		<workAmount>200</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Gold</li>
+					</thingDefs>
+				</filter>
+				<count>1.5</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldWaste>150</SoED_GoldWaste>
+	    </products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Gold</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_MakeGoldOfGoldWaste</defName>
+		<label>Smelt gold from gold pieces.</label>
+		<description>Smelts gold.</description>
+		<jobString>Smelts gold.</jobString>
+		<workAmount>50</workAmount>
+		<workSpeedStat>SmeltingSpeed</workSpeedStat>
+		<effectWorking>Smelt</effectWorking>
+		<soundWorking>Recipe_Smelt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldWaste</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gold>1</Gold>
+	    </products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldWaste</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Crafting</workSkill>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_GoldLeaf</defName>
+		<label>Roll out the gold leaf.</label>
+		<description>Stretches golden pieces to gold leaf.</description>
+		<jobString>Stretches the gold.</jobString>
+		<workAmount>150</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldWaste</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldLeaf>1</SoED_GoldLeaf>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldWaste</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_GoldLeafB</defName>
+		<label>Roll out the gold leaf. x25</label>
+		<description>Stretches golden pieces to gold leaf.</description>
+		<jobString>Stretches the gold.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldWaste</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldLeaf>25</SoED_GoldLeaf>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldWaste</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_GoldLeafC</defName>
+		<label>Roll out the gold leaf. x75</label>
+		<description>Stretches golden pieces to gold leaf.</description>
+		<jobString>Stretches the gold.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldWaste</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldLeaf>75</SoED_GoldLeaf>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldWaste</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>SoED_BlocksSandstoneGilded</defName>
+		<label>Gild sandstone</label>
+		<description>Apply gilding to material blocks. Makes material flammable.</description>
+		<jobString>Applies gold plating.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlocksSandstone</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_BlocksSandstoneGilded>25</SoED_BlocksSandstoneGilded>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldLeaf</li>
+				<li>BlocksSandstone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_BlocksGraniteGilded</defName>
+		<label>Gild granite</label>
+		<description>Apply gilding to material blocks. Makes material flammable.</description>
+		<jobString>Applies gold plating.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlocksGranite</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_BlocksGraniteGilded>25</SoED_BlocksGraniteGilded>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldLeaf</li>
+				<li>BlocksGranite</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_BlocksLimestoneGilded</defName>
+		<label>Gild limestone</label>
+		<description>Apply gilding to material blocks. Makes material flammable.</description>
+		<jobString>Applies gold plating.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlocksLimestone</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_BlocksLimestoneGilded>25</SoED_BlocksLimestoneGilded>
+		
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldLeaf</li>
+				<li>BlocksLimestone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_BlocksSlateGilded</defName>
+		<label>Gild slate</label>
+		<description>Apply gilding to material blocks. Makes material flammable.</description>
+		<jobString>Applies gold plating.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlocksSlate</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_BlocksSlateGilded>25</SoED_BlocksSlateGilded>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldLeaf</li>
+				<li>BlocksSlate</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_BlocksMarbleGildedd</defName>
+		<label>Gild marble</label>
+		<description>Apply gilding to material blocks. Makes material flammable.</description>
+		<jobString>Applies gold plating.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlocksMarble</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_BlocksMarbleGilded>25</SoED_BlocksMarbleGilded>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldLeaf</li>
+				<li>BlocksMarble</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>SoED_BlocksSandstoneGildedToGoldWaste</defName>
+		<label>Collect gilding from sandstone</label>
+		<description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal.</description>
+		<jobString>Scrapes off the gold plating.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_BlocksSandstoneGilded</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldWaste>25</SoED_GoldWaste>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_BlocksSandstoneGilded</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>SoED_BlocksGraniteGildedToGoldWaste</defName>
+		<label>Collect gilding from granite</label>
+		<description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal.</description>
+		<jobString>Scrapes off the gold plating.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_BlocksGraniteGilded</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldWaste>25</SoED_GoldWaste>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_BlocksGraniteGilded</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_BlocksLimestoneGildedToGoldWaste</defName>
+		<label>Collect gilding from limestone</label>
+		<description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal.</description>
+		<jobString>Scrapes off the gold plating.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_BlocksLimestoneGilded</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldWaste>25</SoED_GoldWaste>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_BlocksLimestoneGilded</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_BlocksSlateGildedToGoldWaste</defName>
+		<label>Collect gilding from slate</label>
+		<description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal.</description>
+		<jobString>Scrapes off the gold plating.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_BlocksSlateGilded</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldWaste>25</SoED_GoldWaste>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_BlocksSlateGilded</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>SoED_BlocksMarbleGildedToGoldWaste</defName>
+		<label>Collect gilding from marble</label>
+		<description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal.</description>
+		<jobString>Scrapes off the gold plating.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_BlocksMarbleGilded</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldWaste>25</SoED_GoldWaste>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_BlocksMarbleGilded</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+	
+
+	<RecipeDef>
+		<defName>SoED_GildingMetal</defName>
+		<label>Apply gold to iron</label>
+		<description>Apply gold to iron. The material remains the same in quality, but it is more pleasant to look at.</description>
+		<jobString>Applies gold plating.</jobString>
+		<workAmount>1500</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldLeaf</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GildingMetal>25</SoED_GildingMetal>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldLeaf</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+	
+    <RecipeDef>
+		<defName>SoED_GildingMetalToGoldWaste</defName>
+		<label>Remove gilding from iron</label>
+		<description>Remove gilding from iron, without worrying about the safety of the material. After all, it's all about keeping the gold.</description>
+		<jobString>Scrapes off the gold plating.</jobString>
+		<workAmount>3000</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Sculpt</soundWorking>
+		<recipeUsers Inherit="False">
+			<li>TableSculpting</li>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GildingMetal</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<products>
+			<SoED_GoldWaste>25</SoED_GoldWaste>
+	</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GildingMetal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<displayPriority>0</displayPriority>
+	</RecipeDef>
+	
+	
+</Defs>
