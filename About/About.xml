@@ -33,8 +33,12 @@ ww
 	<loadAfter>
 	    <li>Ludeon.RimWorld</li>
 	    <li>Ludeon.RimWorld.Royalty</li>
-		<li>Ludeon.RimWorld.Ideology</li>
-		<li>Ludeon.RimWorld.Biotech</li>
+	    <li>Ludeon.RimWorld.Ideology</li>
+	    <li>Ludeon.RimWorld.Biotech</li>
+	    <li>mireia.bodies</li>
+	    <li>plaxen.MalangBodies</li>
+	    <li>Erin.Body.Texture</li>
+	    <li>Malistaticy.MaliBody</li>
 	</loadAfter>
 </ModMetaData>
 
