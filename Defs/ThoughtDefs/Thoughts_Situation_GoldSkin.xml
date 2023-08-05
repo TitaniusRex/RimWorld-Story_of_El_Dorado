@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThoughtDef>
+		<defName>SoED_ThoughtGoldSkinGreedy</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>SoED.ThoughtWorker_GoldingSkinMerikaFackYeah</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>Midas touch</label>
+				<description>I AM GOD IN THE FLESH! Tremble and prostrate before my majesty!</description>
+				<baseMoodEffect>20</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>Greedy</li>
+			<li>Jealous</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>SoED_ThoughtGoldSkinAscetic</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>SoED.ThoughtWorker_GoldingSkinMerikaFackYeah</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>rejection</label>
+				<description>I can't believe I put THIS on myself! Why this show? I'm sick of it!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>Ascetic</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>SoED_ThoughtGoldSkinNormal</defName>
+		<thoughtClass>Thought_Situational</thoughtClass>
+		<workerClass>SoED.ThoughtWorker_GoldingSkinMerikaFackYeah</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>golden skin</label>
+				<description>A strange but pleasant feeling. It doesn't look bad.</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>Ascetic</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+	
+
+</Defs>
