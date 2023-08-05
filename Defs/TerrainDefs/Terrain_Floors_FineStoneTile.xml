@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef Abstract="True" ParentName="FloorBase" Name="SoED_FineTileStoneWithGold">
+    <renderPrecedence>220</renderPrecedence>
+    <description>Exquisite stone tiles for expressing economic status. Slow to construct. Gilding is required more than on other surfaces, so that it does not wear out when used.</description>
+    <texturePath>Terrain/SoEDFlor/SoEDFlor</texturePath>
+    <pollutionTintColor>(0.95, 0.95, 0.93, 1)</pollutionTintColor>
+    <isPaintable>true</isPaintable>
+    <statBases>
+      <WorkToBuild>4000</WorkToBuild>
+      <Beauty>6</Beauty>
+      <CleaningTimeFactor>2</CleaningTimeFactor>
+	<Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <designatorDropdown>SoED_FineTileStoneWGold</designatorDropdown>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+    <uiOrder>2090</uiOrder>
+  </TerrainDef>
+
+    <DesignatorDropdownGroupDef>
+		<defName>SoED_FineTileStoneWGold</defName>
+		<label>Stone title</label>
+	</DesignatorDropdownGroupDef>
+	
+  <TerrainDef ParentName="SoED_FineTileStoneWithGold">
+    <defName>SoED_FineTileSandstone</defName>
+    <label>gold sandstone tile</label>
+    <costList>
+      <BlocksSandstone>10</BlocksSandstone>
+		<SoED_GoldWaste>10</SoED_GoldWaste>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="SoED_FineTileStoneWithGold">
+    <defName>SoED_FineTileGranite</defName>
+    <label>gold granite tile</label>
+    <costList>
+      <BlocksGranite>10</BlocksGranite>
+		<SoED_GoldWaste>10</SoED_GoldWaste>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="SoED_FineTileStoneWithGold">
+    <defName>SoED_FineTileLimestone</defName>
+    <label>gold limestone tile</label>
+    <costList>
+      <BlocksLimestone>10</BlocksLimestone>
+		<SoED_GoldWaste>10</SoED_GoldWaste>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="SoED_FineTileStoneWithGold">
+    <defName>SoED_FineTileSlate</defName>
+    <label>gold slate tile</label>
+    <costList>
+      <BlocksSlate>10</BlocksSlate>
+		<SoED_GoldWaste>10</SoED_GoldWaste>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="SoED_FineTileStoneWithGold">
+    <defName>SoED_FineTileMarble</defName>
+    <label>gold marble tile</label>
+    <costList>
+      <BlocksMarble>10</BlocksMarble>
+		<SoED_GoldWaste>10</SoED_GoldWaste>
+    </costList>
+  </TerrainDef>
+  
+</Defs>
