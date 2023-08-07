@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_ThoughtGoldSkinGreedy.stages.label>Midas touch</SoED_ThoughtGoldSkinGreedy.stages.label>
+	<SoED_ThoughtGoldSkinGreedy.stages.description>I AM GOD IN THE FLESH! Tremble and prostrate before my majesty!</SoED_ThoughtGoldSkinGreedy.stages.description>
+
+	<SoED_ThoughtGoldSkinAscetic.stages.label>rejection</SoED_ThoughtGoldSkinAscetic.stages.label>
+	<SoED_ThoughtGoldSkinAscetic.stages.description>I can't believe I put THIS on myself! Why this show? I'm sick of it!</SoED_ThoughtGoldSkinAscetic.stages.description>
+
+	<SoED_ThoughtGoldSkinNormal.stages.label>golden skin</SoED_ThoughtGoldSkinNormal.stages.label>
+	<SoED_ThoughtGoldSkinNormal.stages.description>A strange but pleasant feeling. It doesn't look bad.</SoED_ThoughtGoldSkinNormal.stages.description>
+	
+</LanguageData>

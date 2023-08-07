@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_FineTileSandstone.label>gold sandstone tile</SoED_FineTileSandstone.label>
+	<SoED_FineTileSandstone.description>Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct. Gilding is required more than on other surfaces, so that it does not wear out when used.</SoED_FineTileSandstone.description>
+
+	<SoED_FineTileGranite.label>gold granite tile</SoED_FineTileGranite.label>
+	<SoED_FineTileGranite.description>Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct. Gilding is required more than on other surfaces, so that it does not wear out when used.</SoED_FineTileGranite.description>
+
+	<SoED_FineTileLimestone.label>gold limestone tile</SoED_FineTileLimestone.label>
+	<SoED_FineTileLimestone.description>Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct. Gilding is required more than on other surfaces, so that it does not wear out when used.</SoED_FineTileLimestone.description>
+
+	<SoED_FineTileSlate.label>gold slate tile</SoED_FineTileSlate.label>
+	<SoED_FineTileSlate.description>Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct. Gilding is required more than on other surfaces, so that it does not wear out when used.</SoED_FineTileSlate.description>
+
+	<SoED_FineTileMarble.label>gold marble tile</SoED_FineTileMarble.label>
+	<SoED_FineTileMarble.description>Exquisite stone tiles, made with no compromises, for expressing economic status. Slow to construct. Gilding is required more than on other surfaces, so that it does not wear out when used.</SoED_FineTileMarble.description>
+
+</LanguageData>
