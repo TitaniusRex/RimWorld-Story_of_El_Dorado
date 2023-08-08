@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_GoldWaste.label>Расплавить золото на кусочки.</SoED_GoldWaste.label>
+	<SoED_GoldWaste.description>Разделить золотую единицу меры на кусочки для ремесла.</SoED_GoldWaste.description>
+	<SoED_GoldWaste.jobString>Расплавление золота на куски.</SoED_GoldWaste.jobString>
+
+	<SoED_MakeGoldOfGoldWaste.label>Выплавить золото из золотых кусочков.</SoED_MakeGoldOfGoldWaste.label>
+	<SoED_MakeGoldOfGoldWaste.description>Выплавить золото.</SoED_MakeGoldOfGoldWaste.description>
+	<SoED_MakeGoldOfGoldWaste.jobString>Выплавляет золото.</SoED_MakeGoldOfGoldWaste.jobString>
+	
+	
+
+	<SoED_GoldLeaf.label>Раскатать сусальное золото.</SoED_GoldLeaf.label>
+	<SoED_GoldLeaf.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeaf.description>
+	<SoED_GoldLeaf.jobString>Раскатывает золото.</SoED_GoldLeaf.jobString>
+
+	<SoED_GoldLeaf.label>Раскатать сусальное золото. x25</SoED_GoldLeaf.label>
+	<SoED_GoldLeaf.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeaf.description>
+	<SoED_GoldLeaf.jobString>Раскатывает золото.</SoED_GoldLeaf.jobString>
+
+	<SoED_GoldLeaf.label>Раскатать сусальное золото. x75</SoED_GoldLeaf.label>
+	<SoED_GoldLeaf.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeaf.description>
+	<SoED_GoldLeaf.jobString>Раскатывает золото.</SoED_GoldLeaf.jobString>
+	
+	
+
+	<SoED_BlocksSandstoneGilded.label>Позолотить песчаник</SoED_BlocksSandstoneGilded.label>
+	<SoED_BlocksSandstoneGilded.description>Нанести позолоту на блоки материалов. Делает материал воспламеняющимся.</SoED_BlocksSandstoneGilded.description>
+	<SoED_BlocksSandstoneGilded.jobString>Наносит позолоту.</SoED_BlocksSandstoneGilded.jobString>
+
+	<SoED_BlocksGraniteGilded.label>Позолотить гранит</SoED_BlocksGraniteGilded.label>
+	<SoED_BlocksGraniteGilded.description>Нанести позолоту на блоки материалов. Делает материал воспламеняющимся.</SoED_BlocksGraniteGilded.description>
+	<SoED_BlocksGraniteGilded.jobString>Наносит позолоту.</SoED_BlocksGraniteGilded.jobString>
+
+	<SoED_BlocksLimestoneGilded.label>Позолотить известняк</SoED_BlocksLimestoneGilded.label>
+	<SoED_BlocksLimestoneGilded.description>Нанести позолоту на блоки материалов. Делает материал воспламеняющимся.</SoED_BlocksLimestoneGilded.description>
+	<SoED_BlocksLimestoneGilded.jobString>Наносит позолоту.</SoED_BlocksLimestoneGilded.jobString>
+
+	<SoED_BlocksSlateGilded.label>Позолотить сланец</SoED_BlocksSlateGilded.label>
+	<SoED_BlocksSlateGilded.description>Нанести позолоту на блоки материалов. Делает материал воспламеняющимся.</SoED_BlocksSlateGilded.description>
+	<SoED_BlocksSlateGilded.jobString>Наносит позолоту.</SoED_BlocksSlateGilded.jobString>
+
+	<SoED_BlocksMarbleGildedd.label>Позолотить мрамор</SoED_BlocksMarbleGildedd.label>
+	<SoED_BlocksMarbleGildedd.description>Нанести позолоту на блоки материалов. Делает материал воспламеняющимся.</SoED_BlocksMarbleGildedd.description>
+	<SoED_BlocksMarbleGildedd.jobString>Наносит позолоту.</SoED_BlocksMarbleGildedd.jobString>
+	
+	
+
+	<SoED_BlocksSandstoneGildedToGoldWaste.label>Собрать позолоту с песчаника</SoED_BlocksSandstoneGildedToGoldWaste.label>
+	<SoED_BlocksSandstoneGildedToGoldWaste.description>Собрать позолоту с блоков камня, жертвуя камнями дабы собрать каждую крупицу драгоценного металла.</SoED_BlocksSandstoneGildedToGoldWaste.description>
+	<SoED_BlocksSandstoneGildedToGoldWaste.jobString>Сдирает золотое покрытие.</SoED_BlocksSandstoneGildedToGoldWaste.jobString>
+
+	<SoED_BlocksGraniteGildedToGoldWaste.label>Собрать позолоту с гранита</SoED_BlocksGraniteGildedToGoldWaste.label>
+	<SoED_BlocksGraniteGildedToGoldWaste.description>Собрать позолоту с блоков камня, жертвуя камнями дабы собрать каждую крупицу драгоценного металла.</SoED_BlocksGraniteGildedToGoldWaste.description>
+	<SoED_BlocksGraniteGildedToGoldWaste.jobString>Сдирает золотое покрытие.</SoED_BlocksGraniteGildedToGoldWaste.jobString>
+
+	<SoED_BlocksLimestoneGildedToGoldWaste.label>Собрать позолоту с известняка</SoED_BlocksLimestoneGildedToGoldWaste.label>
+	<SoED_BlocksLimestoneGildedToGoldWaste.description>Собрать позолоту с блоков камня, жертвуя камнями дабы собрать каждую крупицу драгоценного металла.</SoED_BlocksLimestoneGildedToGoldWaste.description>
+	<SoED_BlocksLimestoneGildedToGoldWaste.jobString>Сдирает золотое покрытие.</SoED_BlocksLimestoneGildedToGoldWaste.jobString>
+
+	<SoED_BlocksSlateGildedToGoldWaste.label>Собрать позолоту со сланца</SoED_BlocksSlateGildedToGoldWaste.label>
+	<SoED_BlocksSlateGildedToGoldWaste.description>Собрать позолоту с блоков камня, жертвуя камнями дабы собрать каждую крупицу драгоценного металла.</SoED_BlocksSlateGildedToGoldWaste.description>
+	<SoED_BlocksSlateGildedToGoldWaste.jobString>Сдирает золотое покрытие.</SoED_BlocksSlateGildedToGoldWaste.jobString>
+
+	<SoED_BlocksMarbleGildedToGoldWaste.label>Собрать позолоту с мрамора</SoED_BlocksMarbleGildedToGoldWaste.label>
+	<SoED_BlocksMarbleGildedToGoldWaste.description>Собрать позолоту с блоков камня, жертвуя камнями дабы собрать каждую крупицу драгоценного металла.</SoED_BlocksMarbleGildedToGoldWaste.description>
+	<SoED_BlocksMarbleGildedToGoldWaste.jobString>Сдирает золотое покрытие.</SoED_BlocksMarbleGildedToGoldWaste.jobString>
+
+
+
+	<SoED_GildingMetal.label>Нанесите позолоту на железо</SoED_GildingMetal.label>
+	<SoED_GildingMetal.description>Нанести позолоту на железо. Материал остаётся таким же по качеству, но смотреть приятней.</SoED_GildingMetal.description>
+	<SoED_GildingMetal.jobString>Наносит позолоту.</SoED_GildingMetal.jobString>
+
+	<SoED_GildingMetalToGoldWaste.label>Снять позолоту с железа</SoED_GildingMetalToGoldWaste.label>
+	<SoED_GildingMetalToGoldWaste.description>Снять позолоту с железа, не заботясь о сохранности материала. Ведь речь идёт только о сохранении золота.</SoED_GildingMetalToGoldWaste.description>
+	<SoED_GildingMetalToGoldWaste.jobString>Сдирает золотое покрытие.</SoED_GildingMetalToGoldWaste.jobString>
+	
+</LanguageData>
