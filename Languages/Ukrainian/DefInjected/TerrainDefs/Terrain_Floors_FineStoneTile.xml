@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_FineTileSandstone.label>плитка із золотого пісковика</SoED_FineTileSandstone.label>
+	<SoED_FineTileSandstone.description>Вишукана кам'яна плитка для вираження економічного статусу. Позолоти потрібно більше, ніж на інших поверхнях, щоб вона не зношувалась при експлуатації.</SoED_FineTileSandstone.description>
+
+	<SoED_FineTileGranite.label>плитка із золотого граніту</SoED_FineTileGranite.label>
+	<SoED_FineTileGranite.description>Вишукана кам'яна плитка для вираження економічного статусу. Позолоти потрібно більше, ніж на інших поверхнях, щоб вона не зношувалась при експлуатації.</SoED_FineTileGranite.description>
+
+	<SoED_FineTileLimestone.label>плитка із золотого вапняку</SoED_FineTileLimestone.label>
+	<SoED_FineTileLimestone.description>Вишукана кам'яна плитка для вираження економічного статусу. Позолоти потрібно більше, ніж на інших поверхнях, щоб вона не зношувалась при експлуатації.</SoED_FineTileLimestone.description>
+
+	<SoED_FineTileSlate.label>плитка із золотого сланця</SoED_FineTileSlate.label>
+	<SoED_FineTileSlate.description>Вишукана кам'яна плитка для вираження економічного статусу. Позолоти потрібно більше, ніж на інших поверхнях, щоб вона не зношувалась при експлуатації.</SoED_FineTileSlate.description>
+
+	<SoED_FineTileMarble.label>плитка із золотого мармуру</SoED_FineTileMarble.label>
+	<SoED_FineTileMarble.description>Вишукана кам'яна плитка для вираження економічного статусу. Позолоти потрібно більше, ніж на інших поверхнях, щоб вона не зношувалась при експлуатації.</SoED_FineTileMarble.description>
+
+</LanguageData>
