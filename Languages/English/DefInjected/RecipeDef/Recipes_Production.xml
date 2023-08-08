@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_GoldWaste.label>Smelt the gold into pieces.</SoED_GoldWaste.label>
+	<SoED_GoldWaste.description>Divide the golden unit of measure into pieces for the craft.</SoED_GoldWaste.description>
+	<SoED_GoldWaste.jobString>Smelting gold to pieces.</SoED_GoldWaste.jobString>
+
+	<SoED_MakeGoldOfGoldWaste.label>Smelt gold from gold pieces.</SoED_MakeGoldOfGoldWaste.label>
+	<SoED_MakeGoldOfGoldWaste.description>Smelts gold.</SoED_MakeGoldOfGoldWaste.description>
+	<SoED_MakeGoldOfGoldWaste.jobString>Smelts gold.</SoED_MakeGoldOfGoldWaste.jobString>
+	
+	
+
+	<SoED_GoldLeaf.label>Roll out the gold leaf.</SoED_GoldLeaf.label>
+	<SoED_GoldLeaf.description>Stretches golden pieces to gold leaf.</SoED_GoldLeaf.description>
+	<SoED_GoldLeaf.jobString>Stretches the gold.</SoED_GoldLeaf.jobString>
+
+	<SoED_GoldLeaf.label>Roll out the gold leaf. x25</SoED_GoldLeaf.label>
+	<SoED_GoldLeaf.description>Stretches golden pieces to gold leaf.</SoED_GoldLeaf.description>
+	<SoED_GoldLeaf.jobString>Stretches the gold.</SoED_GoldLeaf.jobString>
+
+	<SoED_GoldLeaf.label>Roll out the gold leaf. x75</SoED_GoldLeaf.label>
+	<SoED_GoldLeaf.description>Stretches golden pieces to gold leaf.</SoED_GoldLeaf.description>
+	<SoED_GoldLeaf.jobString>Stretches the gold.</SoED_GoldLeaf.jobString>
+	
+	
+
+	<SoED_BlocksSandstoneGilded.label>Gild sandstone</SoED_BlocksSandstoneGilded.label>
+	<SoED_BlocksSandstoneGilded.description>Apply gilding to material blocks. Makes material flammable.</SoED_BlocksSandstoneGilded.description>
+	<SoED_BlocksSandstoneGilded.jobString>Applies gold plating.</SoED_BlocksSandstoneGilded.jobString>
+
+	<SoED_BlocksGraniteGilded.label>Gild granite</SoED_BlocksGraniteGilded.label>
+	<SoED_BlocksGraniteGilded.description>Apply gilding to material blocks. Makes material flammable.</SoED_BlocksGraniteGilded.description>
+	<SoED_BlocksGraniteGilded.jobString>Applies gold plating.</SoED_BlocksGraniteGilded.jobString>
+
+	<SoED_BlocksLimestoneGilded.label>Gild limestone</SoED_BlocksLimestoneGilded.label>
+	<SoED_BlocksLimestoneGilded.description>Apply gilding to material blocks. Makes material flammable.</SoED_BlocksLimestoneGilded.description>
+	<SoED_BlocksLimestoneGilded.jobString>Applies gold plating.</SoED_BlocksLimestoneGilded.jobString>
+
+	<SoED_BlocksSlateGilded.label>Gild slate</SoED_BlocksSlateGilded.label>
+	<SoED_BlocksSlateGilded.description>Apply gilding to material blocks. Makes material flammable.</SoED_BlocksSlateGilded.description>
+	<SoED_BlocksSlateGilded.jobString>Applies gold plating.</SoED_BlocksSlateGilded.jobString>
+
+	<SoED_BlocksMarbleGildedd.label>Gild marble</SoED_BlocksMarbleGildedd.label>
+	<SoED_BlocksMarbleGildedd.description>Apply gilding to material blocks. Makes material flammable.</SoED_BlocksMarbleGildedd.description>
+	<SoED_BlocksMarbleGildedd.jobString>Applies gold plating.</SoED_BlocksMarbleGildedd.jobString>
+	
+	
+
+	<SoED_BlocksSandstoneGildedToGoldWaste.label>Collect gilding from sandstone</SoED_BlocksSandstoneGildedToGoldWaste.label>
+	<SoED_BlocksSandstoneGildedToGoldWaste.description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal</SoED_BlocksSandstoneGildedToGoldWaste.description>
+	<SoED_BlocksSandstoneGildedToGoldWaste.jobString>Scrapes off the gold plating.</SoED_BlocksSandstoneGildedToGoldWaste.jobString>
+
+	<SoED_BlocksGraniteGildedToGoldWaste.label>Collect gilding from granite</SoED_BlocksGraniteGildedToGoldWaste.label>
+	<SoED_BlocksGraniteGildedToGoldWaste.description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal</SoED_BlocksGraniteGildedToGoldWaste.description>
+	<SoED_BlocksGraniteGildedToGoldWaste.jobString>Scrapes off the gold plating.</SoED_BlocksGraniteGildedToGoldWaste.jobString>
+
+	<SoED_BlocksLimestoneGildedToGoldWaste.label>Collect gilding from limestone</SoED_BlocksLimestoneGildedToGoldWaste.label>
+	<SoED_BlocksLimestoneGildedToGoldWaste.description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal</SoED_BlocksLimestoneGildedToGoldWaste.description>
+	<SoED_BlocksLimestoneGildedToGoldWaste.jobString>Scrapes off the gold plating.</SoED_BlocksLimestoneGildedToGoldWaste.jobString>
+
+	<SoED_BlocksSlateGildedToGoldWaste.label>Collect gilding from slate</SoED_BlocksSlateGildedToGoldWaste.label>
+	<SoED_BlocksSlateGildedToGoldWaste.description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal</SoED_BlocksSlateGildedToGoldWaste.description>
+	<SoED_BlocksSlateGildedToGoldWaste.jobString>Scrapes off the gold plating.</SoED_BlocksSlateGildedToGoldWaste.jobString>
+
+	<SoED_BlocksMarbleGildedToGoldWaste.label>Collect gilding from marble</SoED_BlocksMarbleGildedToGoldWaste.label>
+	<SoED_BlocksMarbleGildedToGoldWaste.description>Collect gilding from blocks of stone, sacrificing stones in order to collect every grain of precious metal</SoED_BlocksMarbleGildedToGoldWaste.description>
+	<SoED_BlocksMarbleGildedToGoldWaste.jobString>Scrapes off the gold plating.</SoED_BlocksMarbleGildedToGoldWaste.jobString>
+
+
+
+	<SoED_GildingMetal.label>Apply gold to iron</SoED_GildingMetal.label>
+	<SoED_GildingMetal.description>Apply gold to iron. The material remains the same in quality, but it is more pleasant to look at.</SoED_GildingMetal.description>
+	<SoED_GildingMetal.jobString>Applies gold plating.</SoED_GildingMetal.jobString>
+
+	<SoED_GildingMetalToGoldWaste.label>Remove gilding from iron</SoED_GildingMetalToGoldWaste.label>
+	<SoED_GildingMetalToGoldWaste.description>Remove gilding from iron, without worrying about the safety of the material. After all, it's all about keeping the gold.</SoED_GildingMetalToGoldWaste.description>
+	<SoED_GildingMetalToGoldWaste.jobString>Scrapes off the gold plating.</SoED_GildingMetalToGoldWaste.jobString>
+	
+</LanguageData>
