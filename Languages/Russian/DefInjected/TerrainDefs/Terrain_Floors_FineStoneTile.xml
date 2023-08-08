@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_FineTileSandstone.label>плитка из золотого песчаника</SoED_FineTileSandstone.label>
+	<SoED_FineTileSandstone.description>Роскошная каменная плитка, прекрасно подчёркивающая финансовое положение владельца. Трудоёмка в производстве. Позолоты требуется больше, чем на других поверхностях, чтобы она не истиралась при использовании.</SoED_FineTileSandstone.description>
+
+	<SoED_FineTileGranite.label>плитка из золотого гранита</SoED_FineTileGranite.label>
+	<SoED_FineTileGranite.description>Роскошная каменная плитка, прекрасно подчёркивающая финансовое положение владельца. Трудоёмка в производстве. Позолоты требуется больше, чем на других поверхностях, чтобы она не истиралась при использовании.</SoED_FineTileGranite.description>
+
+	<SoED_FineTileLimestone.label>плитка из золотого известняка</SoED_FineTileLimestone.label>
+	<SoED_FineTileLimestone.description>Роскошная каменная плитка, прекрасно подчёркивающая финансовое положение владельца. Трудоёмка в производстве.  Позолоты требуется больше, чем на других поверхностях, чтобы она не истиралась при использовании.</SoED_FineTileLimestone.description>
+
+	<SoED_FineTileSlate.label>плитка из золотого сланца</SoED_FineTileSlate.label>
+	<SoED_FineTileSlate.description>Роскошная каменная плитка, прекрасно подчёркивающая финансовое положение владельца. Трудоёмка в производстве. Позолоты требуется больше, чем на других поверхностях, чтобы она не истиралась при использовании.</SoED_FineTileSlate.description>
+
+	<SoED_FineTileMarble.label>плитка из золотого мрамора</SoED_FineTileMarble.label>
+	<SoED_FineTileMarble.description>Роскошная каменная плитка, прекрасно подчёркивающая финансовое положение владельца. Трудоёмка в производстве. Позолоты требуется больше, чем на других поверхностях, чтобы она не истиралась при использовании.</SoED_FineTileMarble.description>
+
+</LanguageData>
