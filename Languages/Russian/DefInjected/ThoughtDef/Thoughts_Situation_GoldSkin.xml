@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_ThoughtGoldSkinGreedy.stages.label>Прикосновение Мидаса</SoED_ThoughtGoldSkinGreedy.stages.label>
+	<SoED_ThoughtGoldSkinGreedy.stages.description>Я БОГ ВО ПЛОТИ! Трепещите и падайте ниц перед моим величием!</SoED_ThoughtGoldSkinGreedy.stages.description>
+
+	<SoED_ThoughtGoldSkinAscetic.stages.label>отторжение</SoED_ThoughtGoldSkinAscetic.stages.label>
+	<SoED_ThoughtGoldSkinAscetic.stages.description>Не могу поверить что я нацепил на себя ЭТО! К чему эта показуха? Мне тошно!</SoED_ThoughtGoldSkinAscetic.stages.description>
+
+	<SoED_ThoughtGoldSkinNormal.stages.label>золотая кожа</SoED_ThoughtGoldSkinNormal.stages.label>
+	<SoED_ThoughtGoldSkinNormal.stages.description>Странное, но приятное чувство. Выглядит недурно.</SoED_ThoughtGoldSkinNormal.stages.description>
+	
+</LanguageData>
