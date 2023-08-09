@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_ThoughtGoldSkinGreedy.stages.label>Дотик Мідаса</SoED_ThoughtGoldSkinGreedy.stages.label>
+	<SoED_ThoughtGoldSkinGreedy.stages.description>Я Є БОГ У ПЛОТІ! Падайте ниць перед моєю величністю!</SoED_ThoughtGoldSkinGreedy.stages.description>
+
+	<SoED_ThoughtGoldSkinAscetic.stages.label>відторгнення</SoED_ThoughtGoldSkinAscetic.stages.label>
+	<SoED_ThoughtGoldSkinAscetic.stages.description>Не можу повірити, що я начепив на себе ЦЕ! Навіщо ця показуха? Мені дурно!</SoED_ThoughtGoldSkinAscetic.stages.description>
+
+	<SoED_ThoughtGoldSkinNormal.stages.label>золота шкіра</SoED_ThoughtGoldSkinNormal.stages.label>
+	<SoED_ThoughtGoldSkinNormal.stages.description>Дивне, але приємне почуття. Виглядає добре.</SoED_ThoughtGoldSkinNormal.stages.description>
+	
+</LanguageData>
