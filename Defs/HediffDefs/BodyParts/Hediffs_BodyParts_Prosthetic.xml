@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef Abstract="True" ParentName="BodyPartBase" Name="SoED_BodyPartProstheticBaseGold">
+		<techLevel>Medieval</techLevel>
+		<thingCategories>
+			<li>BodyPartsProsthetic</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.80</drawSize>
+			<color>(255,235,122)</color>
+		</graphicData>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+		</statBases>
+		<recipeMaker>
+			<displayPriority>600</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef Abstract="True" ParentName="SoED_BodyPartProstheticBaseGold" Name="SoED_BodyPartProstheticMakeableBaseGold">
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Artistic</workSkill>
+			<effectWorking>Sculpt</effectWorking>
+			<soundWorking>Recipe_Sculpt</soundWorking>
+			<recipeUsers>
+				<li>TableSculpting</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedHealthItemProsthetic</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+
+
+	<HediffDef ParentName="ImplantHediffBase">
+		<defName>SoED_GoldJawHediff</defName>
+		<label>Grillz</label>
+		<labelNoun>a denture grillz</labelNoun>
+		<description>An installed grillz. To highlight your importance.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SoED_GoldJaw</ThingDef>
+		</descriptionHyperlinks>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+				<statOffsets>
+					<TradePriceImprovement>0.15</TradePriceImprovement>
+					<SocialImpact>0.3</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SoED_GoldJaw</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<ThingDef ParentName="SoED_BodyPartProstheticMakeableBaseGold">
+		<defName>SoED_GoldJaw</defName>
+		<label>Grillz</label>
+		<description>Golden dentures. To highlight your importance.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>SoED_GoldJawInstall</RecipeDef>
+		</descriptionHyperlinks>
+		<costList>
+			<SoED_GoldWaste>200</SoED_GoldWaste>
+		</costList>
+		<statBases>
+			<Mass>0.2</Mass>
+		</statBases>
+		<violentTechHediff>false</violentTechHediff>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+    <RecipeDef ParentName="SurgeryInstallImplantBase">
+		<defName>SoED_GoldJawInstall</defName>
+		<label>install golden dentures</label>
+		<description>Install a golden dentures.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SoED_GoldJaw</ThingDef>
+			<HediffDef>SoED_GoldJawHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing golden dentures.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SoED_GoldJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SoED_GoldJaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyPartGroups>
+			<li>Teeth</li>
+		</appliedOnFixedBodyPartGroups>
+		<addsHediff>SoED_GoldJawHediff</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SurgeryRemoveImplantBase">
+		<defName>SoED_RemoveGoldJaw</defName>
+		<label>remove gold jaw</label>
+		<description>Remove gold jaw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>SoED_GoldJaw</ThingDef>
+			<HediffDef>SoED_GoldJawHediff</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Removing gold jaw.</jobString>
+		<removesHediff>SoED_GoldJawHediff</removesHediff>
+	</RecipeDef>
+</Defs>
