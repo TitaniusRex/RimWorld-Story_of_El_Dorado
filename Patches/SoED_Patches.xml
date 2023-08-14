@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace" MayRequire="mireia.bodies">
+				<xpath>Defs/ThingDef[defName = "Apparel_SoEDGoldSkin"]/apparel/wornGraphicPath</xpath>
+				<value>
+					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/BeautifulBodies/Naked</wornGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace" MayRequire="plaxen.MalangBodies">
+				<xpath>Defs/ThingDef[defName = "Apparel_SoEDGoldSkin"]/apparel/wornGraphicPath</xpath>
+				<value>
+					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MalangBodies/Naked</wornGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace" MayRequire="Erin.Body.Texture">
+				<xpath>Defs/ThingDef[defName = "Apparel_SoEDGoldSkin"]/apparel/wornGraphicPath</xpath>
+				<value>
+					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ErinBodyTexture/Naked</wornGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace" MayRequire="Malistaticy.MaliBody">
+				<xpath>Defs/ThingDef[defName = "Apparel_SoEDGoldSkin"]/apparel/wornGraphicPath</xpath>
+				<value>
+					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/MalistaticyMaliBody/Naked</wornGraphicPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace" MayRequire="Nals.CompatibleBody2">
+				<xpath>Defs/ThingDef[defName = "Apparel_SoEDGoldSkin"]/apparel/wornGraphicPath</xpath>
+				<value>
+					<wornGraphicPath>Things/Pawn/Humanlike/Apparel/NalsCompatibleBody2/Naked</wornGraphicPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
