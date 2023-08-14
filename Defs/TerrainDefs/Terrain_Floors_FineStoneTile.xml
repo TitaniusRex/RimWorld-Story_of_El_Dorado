@@ -4,9 +4,8 @@
   <TerrainDef Abstract="True" ParentName="FloorBase" Name="SoED_FineTileStoneWithGold">
     <renderPrecedence>220</renderPrecedence>
     <description>Exquisite stone tiles for expressing economic status. Slow to construct. Gilding is required more than on other surfaces, so that it does not wear out when used.</description>
-    <texturePath>Terrain/SoEDFlor/SoEDFlor</texturePath>
     <pollutionTintColor>(0.95, 0.95, 0.93, 1)</pollutionTintColor>
-    <isPaintable>true</isPaintable>
+    <isPaintable>false</isPaintable>
     <statBases>
       <WorkToBuild>4000</WorkToBuild>
       <Beauty>6</Beauty>
@@ -31,6 +30,7 @@
   <TerrainDef ParentName="SoED_FineTileStoneWithGold">
     <defName>SoED_FineTileSandstone</defName>
     <label>gold sandstone tile</label>
+    <texturePath>Terrain/SoEDFlor/SoEDFlorSand</texturePath>
     <costList>
       <BlocksSandstone>10</BlocksSandstone>
 		<SoED_GoldWaste>10</SoED_GoldWaste>
@@ -40,6 +40,7 @@
   <TerrainDef ParentName="SoED_FineTileStoneWithGold">
     <defName>SoED_FineTileGranite</defName>
     <label>gold granite tile</label>
+    <texturePath>Terrain/SoEDFlor/SoEDFlorGranite</texturePath>  
     <costList>
       <BlocksGranite>10</BlocksGranite>
 		<SoED_GoldWaste>10</SoED_GoldWaste>
@@ -48,6 +49,7 @@
 
   <TerrainDef ParentName="SoED_FineTileStoneWithGold">
     <defName>SoED_FineTileLimestone</defName>
+    <label>gold limestone tile</label>
     <label>gold limestone tile</label>
     <costList>
       <BlocksLimestone>10</BlocksLimestone>
@@ -58,6 +60,7 @@
   <TerrainDef ParentName="SoED_FineTileStoneWithGold">
     <defName>SoED_FineTileSlate</defName>
     <label>gold slate tile</label>
+    <texturePath>Terrain/SoEDFlor/SoEDFlorSlate</texturePath>
     <costList>
       <BlocksSlate>10</BlocksSlate>
 		<SoED_GoldWaste>10</SoED_GoldWaste>
@@ -67,6 +70,7 @@
   <TerrainDef ParentName="SoED_FineTileStoneWithGold">
     <defName>SoED_FineTileMarble</defName>
     <label>gold marble tile</label>
+    <texturePath>Terrain/SoEDFlor/SoEDFlorMarble</texturePath>
     <costList>
       <BlocksMarble>10</BlocksMarble>
 		<SoED_GoldWaste>10</SoED_GoldWaste>
