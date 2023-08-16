@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>SoED_BlocksSandstoneGilded</defName>
+		<label>sandstone blocks gilded</label>
+		<description>Gilded Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</description>
+		<graphicData>
+			<color>(255,235,122)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+			<Mass>1</Mass>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+			<Beauty>0</Beauty>
+		</statBases>
+		<stuffProps>
+			<color>(255,235,122)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>sandstone gilded</stuffAdjective>
+			<statFactors>
+				<MarketValue>0.9</MarketValue>
+				<MaxHitPoints>1.4</MaxHitPoints>
+				<WorkToBuild>5.0</WorkToBuild>
+				<WorkToMake>1.1</WorkToMake>
+				<Flammability>0.4</Flammability>
+				<Beauty>2.5</Beauty>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+			<statOffsets>
+				<Beauty>11</Beauty>
+			</statOffsets>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>SoED_BlocksGraniteGilded</defName>
+		<label>granite blocks gilded</label>
+		<description>Gilded Blocks of solid granite. Granite is a very hard stone. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</description>
+		<graphicData>
+			<color>(255,235,122)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+			<Mass>1.25</Mass>
+			<SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+			<Beauty>0</Beauty>
+		</statBases>
+		<stuffProps>
+			<color>(255,235,122)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>granite gilded</stuffAdjective>
+			<statFactors>
+				<MarketValue>0.9</MarketValue>
+				<MaxHitPoints>1.7</MaxHitPoints>
+				<Flammability>0.4</Flammability>
+				<Beauty>2.5</Beauty>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+			<statOffsets>
+				<Beauty>11</Beauty>
+			</statOffsets>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>SoED_BlocksLimestoneGilded</defName>
+		<label>limestone blocks gilded</label>
+		<description>Gilded Blocks of solid limestone. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</description>
+		<graphicData>
+			<color>(255,235,122)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+			<Mass>1.1</Mass>
+			<Beauty>0</Beauty>
+		</statBases>
+		<stuffProps>
+			<color>(255,235,122)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>limestone gilded</stuffAdjective>
+			<statFactors>
+				<MarketValue>0.9</MarketValue>
+				<MaxHitPoints>1.55</MaxHitPoints>
+				<Flammability>0.4</Flammability>
+				<Beauty>2.5</Beauty>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+			<statOffsets>
+				<Beauty>11</Beauty>
+			</statOffsets>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>SoED_BlocksSlateGilded</defName>
+		<label>slate blocks gilded</label>
+		<description>Gilded Blocks of solid slate. A dull-looking rock that chips easily. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</description>
+		<graphicData>
+			<color>(255,235,122)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+			<Mass>0.9</Mass>
+			<Beauty>0</Beauty>
+		</statBases>
+		<stuffProps>
+			<color>(255,235,122)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>slate gilded</stuffAdjective>
+			<statFactors>
+				<MarketValue>0.9</MarketValue>
+				<MaxHitPoints>1.3</MaxHitPoints>
+				<Flammability>0.4</Flammability>
+				<Beauty>2.5</Beauty>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+			<statOffsets>
+				<Beauty>11</Beauty>
+			</statOffsets>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="StoneBlocksBase">
+		<defName>SoED_BlocksMarbleGilded</defName>
+		<label>marble blocks gilded</label>
+		<description>Gilded Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</description>
+		<graphicData>
+			<color>(255,235,122)</color>
+		</graphicData>
+		<statBases>
+			<Beauty>0</Beauty>
+			<MarketValue>1.1</MarketValue>
+			<Mass>1.25</Mass>
+		</statBases>
+		<stuffProps>
+			<color>(255,235,122)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>marble gilded</stuffAdjective>
+			<statFactors>
+				<MarketValue>0.9</MarketValue>
+				<MaxHitPoints>1.2</MaxHitPoints>
+				<WorkToBuild>5.5</WorkToBuild>
+				<WorkToMake>1.15</WorkToMake>
+				<Flammability>0.4</Flammability>
+				<Beauty>2.5</Beauty>
+			</statFactors>
+			<statOffsets>
+				<Beauty>11</Beauty>
+			</statOffsets>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+	</ThingDef>
+	
+</Defs>
