@@ -16,13 +16,13 @@
 	<SoED_GoldLeaf.description>Stretches golden pieces to gold leaf.</SoED_GoldLeaf.description>
 	<SoED_GoldLeaf.jobString>Stretches the gold.</SoED_GoldLeaf.jobString>
 
-	<SoED_GoldLeaf.label>Roll out the gold leaf. x25</SoED_GoldLeaf.label>
-	<SoED_GoldLeaf.description>Stretches golden pieces to gold leaf.</SoED_GoldLeaf.description>
-	<SoED_GoldLeaf.jobString>Stretches the gold.</SoED_GoldLeaf.jobString>
+	<SoED_GoldLeafB.label>Roll out the gold leaf. x25</SoED_GoldLeafB.label>
+	<SoED_GoldLeafB.description>Stretches golden pieces to gold leaf.</SoED_GoldLeafB.description>
+	<SoED_GoldLeafB.jobString>Stretches the gold.</SoED_GoldLeafB.jobString>
 
-	<SoED_GoldLeaf.label>Roll out the gold leaf. x75</SoED_GoldLeaf.label>
-	<SoED_GoldLeaf.description>Stretches golden pieces to gold leaf.</SoED_GoldLeaf.description>
-	<SoED_GoldLeaf.jobString>Stretches the gold.</SoED_GoldLeaf.jobString>
+	<SoED_GoldLeafC.label>Roll out the gold leaf. x75</SoED_GoldLeafC.label>
+	<SoED_GoldLeafC.description>Stretches golden pieces to gold leaf.</SoED_GoldLeafC.description>
+	<SoED_GoldLeafC.jobString>Stretches the gold.</SoED_GoldLeafC.jobString>
 	
 	
 
@@ -77,5 +77,15 @@
 	<SoED_GildingMetalToGoldWaste.label>Remove gilding from iron</SoED_GildingMetalToGoldWaste.label>
 	<SoED_GildingMetalToGoldWaste.description>Remove gilding from iron, without worrying about the safety of the material. After all, it's all about keeping the gold.</SoED_GildingMetalToGoldWaste.description>
 	<SoED_GildingMetalToGoldWaste.jobString>Scrapes off the gold plating.</SoED_GildingMetalToGoldWaste.jobString>
+
+
+
+	<SoED_GoldJawInstall.label>instal golden dentures</SoED_GoldJawInstall.label>
+	<SoED_GoldJawInstall.description>Instal a golden dentures.</SoED_GoldJawInstall.description>
+	<SoED_GoldJawInstall.jobString>Installing golden dentures.</SoED_GoldJawInstall.jobString>
+
+	<SoED_RemoveGoldJaw.label>remove grillz</SoED_RemoveGoldJaw.label>
+	<SoED_RemoveGoldJaw.description>Remove grillz.</SoED_RemoveGoldJaw.description>
+	<SoED_RemoveGoldJaw.jobString>Removing grillz.</SoED_RemoveGoldJaw.jobString>
 	
 </LanguageData>

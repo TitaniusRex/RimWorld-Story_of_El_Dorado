@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_BlocksSandstoneGilded.label>позолочені блоки пісковика</SoED_BlocksSandstoneGilded.label>
+	<SoED_BlocksSandstoneGilded.stuffProps.stuffAdjective>золотогу пісковику</SoED_BlocksSandstoneGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksSandstoneGilded.description>Позолочені блоки із твердого пісковика. Пісковик є відносно м'якою породою і легко розколюється. Вкрита тонким шаром золота. Позолоту можна прибрати, пожертвувавши блоками. Золоте покриття робить блоки пальним.</SoED_BlocksSandstoneGilded.description>
+
+	<SoED_BlocksGraniteGilded.label>позолочені блоки граніту</SoED_BlocksGraniteGilded.label>
+	<SoED_BlocksGraniteGilded.stuffProps.stuffAdjective>золотого граніту</SoED_BlocksGraniteGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksGraniteGilded.description>Позолочені блоки із цільного граніту. Граніт дуже твердий камінь. Вкрита тонким шаром золота. Позолоту можна прибрати, пожертвувавши блоками. Золоте покриття робить блоки пальним.</SoED_BlocksGraniteGilded.description>
+
+	<SoED_BlocksLimestoneGilded.label>позолочені блоки вапняку</SoED_BlocksLimestoneGilded.label>
+	<SoED_BlocksLimestoneGilded.stuffProps.stuffAdjective>золотогу вапняку</SoED_BlocksLimestoneGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksLimestoneGilded.description>Позолочені блоки із твердого вапняку. Вкрита тонким шаром золота. Позолоту можна прибрати, пожертвувавши блоками. Золоте покриття робить блоки пальним.</SoED_BlocksLimestoneGilded.description>
+
+	<SoED_BlocksSlateGilded.label>позолочені блоки сланцю</SoED_BlocksSlateGilded.label>
+	<SoED_BlocksSlateGilded.stuffProps.stuffAdjective>золотого сланцю</SoED_BlocksSlateGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksSlateGilded.description>Позолочені блоки із твердого сланцю. Тьмяний на вигляд камінь, який легко розколюється. Вкрита тонким шаром золота. Позолоту можна прибрати, пожертвувавши блоками. Золоте покриття робить блоки пальним.</SoED_BlocksSlateGilded.description>
+
+	<SoED_BlocksMarbleGilded.label>позолочені блоки мармуру</SoED_BlocksMarbleGilded.label>
+	<SoED_BlocksMarbleGilded.stuffProps.stuffAdjective>золотого мармуру</SoED_BlocksMarbleGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksMarbleGilded.description>Позолочені блоки із цільного мармуру. Мармур - м'який, гарний камінь, відомий тим, що його легко ліпити. Вкрита тонким шаром золота. Позолоту можна прибрати, пожертвувавши блоками. Золоте покриття робить блоки пальним.</SoED_BlocksMarbleGilded.description>
+
+</LanguageData>

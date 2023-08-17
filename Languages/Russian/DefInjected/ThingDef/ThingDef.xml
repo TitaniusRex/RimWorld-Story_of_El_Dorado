@@ -12,25 +12,11 @@
 	<SoED_GoldWaste.description>Золотой кусочек, нужно собрать не один такой, чтобы можно было сказать что у вас есть золото.</SoED_GoldWaste.description>
 	
 	<SoED_GildingMetal.label>позолоченный металл</SoED_GildingMetal.label>
+	<SoED_GildingMetal.stuffProps.stuffAdjective>золотого металла</SoED_GildingMetal.stuffProps.stuffAdjective>
 	<SoED_GildingMetal.description>Металл, с нанесенной позолотой.</SoED_GildingMetal.description>
 
 	<SoED_GoldJaw.label>Грилзы</SoED_GoldJaw.label>
 	<SoED_GoldJaw.description>Разновидность зубных украшений. Чтобы подчеркнуть свою значимость.</SoED_GoldJaw.description>
-
-	<SoED_BlocksSandstoneGilded.label>позолоченные блоки песчаника</SoED_BlocksSandstoneGilded.label>
-	<SoED_BlocksSandstoneGilded.description>Позолоченные блоки из твердого песчаника. Песчаник является относительно мягкой породой и легко раскалывается. Покрыта тонким слоем золота. Позолоту можно убрать, пожертвовав блоками. Золотое покрытие делает блоки горючими.</SoED_BlocksSandstoneGilded.description>
-
-	<SoED_BlocksGraniteGilded.label>позолоченные блоки гранита</SoED_BlocksGraniteGilded.label>
-	<SoED_BlocksGraniteGilded.description>Позолоченные блоки из цельного гранита. Гранит – очень твердый камень. Покрыта тонким слоем золота. Позолоту можно убрать, пожертвовав блоками. Золотое покрытие делает блоки горючими.</SoED_BlocksGraniteGilded.description>
-
-	<SoED_BlocksLimestoneGilded.label>позолоченные блоки известняка</SoED_BlocksLimestoneGilded.label>
-	<SoED_BlocksLimestoneGilded.description>Позолоченные блоки из твердого известняка. Покрыта тонким слоем золота. Позолоту можно убрать, пожертвовав блоками. Золотое покрытие делает блоки горючими.</SoED_BlocksLimestoneGilded.description>
-
-	<SoED_BlocksSlateGilded.label>позолоченные блоки сланца</SoED_BlocksSlateGilded.label>
-	<SoED_BlocksSlateGilded.description>Позолоченные блоки из твердого сланца. Тусклый на вид камень, который легко раскалывается. Покрыта тонким слоем золота. Позолоту можно убрать, пожертвовав блоками. Золотое покрытие делает блоки горючими.</SoED_BlocksSlateGilded.description>
-
-	<SoED_BlocksMarbleGilded.label>позолоченные блоки мрамора</SoED_BlocksMarbleGilded.label>
-	<SoED_BlocksMarbleGilded.description>Позолоченные блоки из цельного мрамора. Мрамор — мягкий, красивый камень, известный тем, что его легко лепить. Покрыта тонким слоем золота. Позолоту можно убрать, пожертвовав блоками. Золотое покрытие делает блоки горючими.</SoED_BlocksMarbleGilded.description>
 
 </LanguageData>
 

@@ -16,13 +16,13 @@
 	<SoED_GoldLeaf.description>Розтягнути золоті шматочки до сусального золота.</SoED_GoldLeaf.description>
 	<SoED_GoldLeaf.jobString>Розтягує золото.</SoED_GoldLeaf.jobString>
 
-	<SoED_GoldLeaf.label>Розтягнути сусальне золото. x25</SoED_GoldLeaf.label>
-	<SoED_GoldLeaf.description>Розтягнути золоті шматочки до сусального золота.</SoED_GoldLeaf.description>
-	<SoED_GoldLeaf.jobString>Розтягує золото.</SoED_GoldLeaf.jobString>
+	<SoED_GoldLeafB.label>Розтягнути сусальне золото. x25</SoED_GoldLeafB.label>
+	<SoED_GoldLeafB.description>Розтягнути золоті шматочки до сусального золота.</SoED_GoldLeafB.description>
+	<SoED_GoldLeafB.jobString>Розтягує золото.</SoED_GoldLeafB.jobString>
 
-	<SoED_GoldLeaf.label>Розтягнути сусальне золото. x75</SoED_GoldLeaf.label>
-	<SoED_GoldLeaf.description>Розтягнути золоті шматочки до сусального золота.</SoED_GoldLeaf.description>
-	<SoED_GoldLeaf.jobString>Розтягує золото.</SoED_GoldLeaf.jobString>
+	<SoED_GoldLeafC.label>Розтягнути сусальне золото. x75</SoED_GoldLeafC.label>
+	<SoED_GoldLeafC.description>Розтягнути золоті шматочки до сусального золота.</SoED_GoldLeafC.description>
+	<SoED_GoldLeafC.jobString>Розтягує золото.</SoED_GoldLeafC.jobString>
 	
 	
 
@@ -77,5 +77,15 @@
 	<SoED_GildingMetalToGoldWaste.label>Зняти позолоту із заліза</SoED_GildingMetalToGoldWaste.label>
 	<SoED_GildingMetalToGoldWaste.description>Зняти позолоту із заліза, не дбаючи про збереження матеріалу. Адже йдеться лише про збереження золота.</SoED_GildingMetalToGoldWaste.description>
 	<SoED_GildingMetalToGoldWaste.jobString>Збирає золоте покриття.</SoED_GildingMetalToGoldWaste.jobString>
-	
+
+
+
+
+	<SoED_GoldJawInstall.label>встановити золоті зуби</SoED_GoldJawInstall.label>
+	<SoED_GoldJawInstall.description>Встановити золоті зубні протези.</SoED_GoldJawInstall.description>
+	<SoED_GoldJawInstall.jobString>Встановлює золоті зуби.</SoED_GoldJawInstall.jobString>
+
+	<SoED_RemoveGoldJaw.label>зняти грілзи</SoED_RemoveGoldJaw.label>
+	<SoED_RemoveGoldJaw.description>Зняти грілзи.</SoED_RemoveGoldJaw.description>
+	<SoED_RemoveGoldJaw.jobString>Знімає грілзи.</SoED_RemoveGoldJaw.jobString>
 </LanguageData>

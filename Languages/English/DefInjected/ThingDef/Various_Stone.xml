@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LanguageData>
+
+	<SoED_BlocksSandstoneGilded.label>sandstone blocks gilded</SoED_BlocksSandstoneGilded.label>
+	<SoED_BlocksSandstoneGilded.stuffProps.stuffAdjective>golden sandstone</SoED_BlocksSandstoneGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksSandstoneGilded.description>Gilded Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</SoED_BlocksSandstoneGilded.description>
+
+	<SoED_BlocksGraniteGilded.label>granite blocks gilded</SoED_BlocksGraniteGilded.label>
+	<SoED_BlocksGraniteGilded.stuffProps.stuffAdjective>golden granite</SoED_BlocksGraniteGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksGraniteGilded.description>Gilded Blocks of solid granite. Granite is a very hard stone. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</SoED_BlocksGraniteGilded.description>
+
+	<SoED_BlocksLimestoneGilded.label>limestone blocks gilded</SoED_BlocksLimestoneGilded.label>
+	<SoED_BlocksLimestoneGilded.stuffProps.stuffAdjective>golden limestone</SoED_BlocksLimestoneGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksLimestoneGilded.description>Gilded Blocks of solid limestone. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</SoED_BlocksLimestoneGilded.description>
+
+	<SoED_BlocksSlateGilded.label>slate blocks gilded</SoED_BlocksSlateGilded.label>
+	<SoED_BlocksSlateGilded.stuffProps.stuffAdjective>golden slate</SoED_BlocksSlateGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksSlateGilded.description>Gilded Blocks of solid slate. A dull-looking rock that chips easily. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</SoED_BlocksSlateGilded.description>
+
+	<SoED_BlocksMarbleGilded.label>marble blocks gilded</SoED_BlocksMarbleGilded.label>
+	<SoED_BlocksMarbleGilded.stuffProps.stuffAdjective>golden marble</SoED_BlocksMarbleGilded.stuffProps.stuffAdjective>
+	<SoED_BlocksMarbleGilded.description>Gilded Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt. Covered with a thin layer of gold. Gilding can be removed by sacrificing blocks. Gold plating makes the blocks combustible.</SoED_BlocksMarbleGilded.description>
+
+</LanguageData>

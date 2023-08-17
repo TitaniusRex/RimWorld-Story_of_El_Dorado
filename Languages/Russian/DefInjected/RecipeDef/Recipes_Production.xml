@@ -16,13 +16,13 @@
 	<SoED_GoldLeaf.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeaf.description>
 	<SoED_GoldLeaf.jobString>Раскатывает золото.</SoED_GoldLeaf.jobString>
 
-	<SoED_GoldLeaf.label>Раскатать сусальное золото. x25</SoED_GoldLeaf.label>
-	<SoED_GoldLeaf.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeaf.description>
-	<SoED_GoldLeaf.jobString>Раскатывает золото.</SoED_GoldLeaf.jobString>
+	<SoED_GoldLeafB.label>Раскатать сусальное золото. x25</SoED_GoldLeafB.label>
+	<SoED_GoldLeafB.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeafB.description>
+	<SoED_GoldLeafB.jobString>Раскатывает золото.</SoED_GoldLeafB.jobString>
 
-	<SoED_GoldLeaf.label>Раскатать сусальное золото. x75</SoED_GoldLeaf.label>
-	<SoED_GoldLeaf.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeaf.description>
-	<SoED_GoldLeaf.jobString>Раскатывает золото.</SoED_GoldLeaf.jobString>
+	<SoED_GoldLeafC.label>Раскатать сусальное золото. x75</SoED_GoldLeafC.label>
+	<SoED_GoldLeafC.description>Раскатать золотые кусочки до сусального золота.</SoED_GoldLeafC.description>
+	<SoED_GoldLeafC.jobString>Раскатывает золото.</SoED_GoldLeafC.jobString>
 	
 	
 
@@ -77,5 +77,15 @@
 	<SoED_GildingMetalToGoldWaste.label>Снять позолоту с железа</SoED_GildingMetalToGoldWaste.label>
 	<SoED_GildingMetalToGoldWaste.description>Снять позолоту с железа, не заботясь о сохранности материала. Ведь речь идёт только о сохранении золота.</SoED_GildingMetalToGoldWaste.description>
 	<SoED_GildingMetalToGoldWaste.jobString>Сдирает золотое покрытие.</SoED_GildingMetalToGoldWaste.jobString>
+
+
 	
+	<SoED_GoldJawInstall.label>установить золотые зубы</SoED_GoldJawInstall.label>
+	<SoED_GoldJawInstall.description>Установить золотые зубные протезы.</SoED_GoldJawInstall.description>
+	<SoED_GoldJawInstall.jobString>Устанавливает золотые зубы.</SoED_GoldJawInstall.jobString>
+
+	<SoED_RemoveGoldJaw.label>снять грилзы</SoED_RemoveGoldJaw.label>
+	<SoED_RemoveGoldJaw.description>Снять грилзы.</SoED_RemoveGoldJaw.description>
+	<SoED_RemoveGoldJaw.jobString>Снимает грилзы.</SoED_RemoveGoldJaw.jobString>
+
 </LanguageData>
