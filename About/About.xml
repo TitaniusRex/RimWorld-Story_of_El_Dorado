@@ -6,9 +6,7 @@
 		<li>1.4</li>
     </supportedVersions>
 	<packageId>TitaniusRex.ElDorado</packageId>
-    <description>
-ww
-	</description>
+    <description>Let your home shine.</description>
 	<modDependencies>
 		<li>
 			<packageId>Ludeon.RimWorld.Royalty</packageId>
