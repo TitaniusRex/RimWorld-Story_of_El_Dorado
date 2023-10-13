@@ -49,10 +49,10 @@
 		</addedPartProps>
 		<stages>
 			<li>
-				<statOffsets>
-					<TradePriceImprovement>0.15</TradePriceImprovement>
-					<SocialImpact>0.3</SocialImpact>
-				</statOffsets>
+		            <statOffsets>
+				<TradePriceImprovement>0.15</TradePriceImprovement>
+				<SocialImpact>0.3</SocialImpact>
+			    </statOffsets>
 			</li>
 		</stages>
 		<spawnThingOnRemoved>SoED_GoldJaw</spawnThingOnRemoved>
